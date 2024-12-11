@@ -1,14 +1,16 @@
-# JKFLIPFLOP-USING-IF-ELSE
+### NAME: TEJASHREE S S
+### REG NO: 24900167
+### EXPERIMENT 7: IMPLEMENTATION OF JK FLIPFLOP
 
-**AIM:** 
+# AIM:
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+# SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+# THEORY:
 
 **JK Flip-Flop**
 
@@ -32,17 +34,45 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-**Procedure**
+# PROCEDURE:
 
-/* write all the steps invloved */
+1.Launch Quartus on your computer and create a new project:
+Go to File → New Project Wizard.
 
-**PROGRAM**
+Specify the project name, directory, and top-level entity name (e.g., JK_FlipFlop).
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+2.Create the JK Flip-Flop Circuit and implement the JK Flip-Flop by writing VHDL/Verilog code.
+Go to File → New → Select Verilog File.
 
-**RTL LOGIC FOR FLIPFLOPS**
+3.Compile the Project
+Click on Processing → Start Compilation.
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+Fix any syntax or schematic errors if present.
 
-**RESULTS**
+4.Simulate the Circuit:
+Go to Tools → University Program VWF.
+
+Define the inputs for J, K, and CLK in the waveform editor.
+
+Run the simulation and observe the waveforms.
+
+5.Verify the Results.
+Compare the simulated results with the truth table for a JK Flip-Flop.
+
+# PROGRAM:
+
+![program jk](https://github.com/user-attachments/assets/68b6f40c-b02d-461f-a2ef-fbec4780d369)
+
+
+# RTL LOGIC FOR FLIPFLOPS:
+
+![rtl output jk](https://github.com/user-attachments/assets/2afa1d4a-2dda-4b7e-929a-dad0845da205)
+
+
+# TIMING DIAGRAMS FOR FLIP FLOPS:
+
+![timing wave jk](https://github.com/user-attachments/assets/c8d7a9ca-36ed-4fe1-aacc-6e17073c1c96)
+
+
+# RESULTS:
+Implementation of JK flipflop using verilog and validating their functionality using their functional tables is verified.
